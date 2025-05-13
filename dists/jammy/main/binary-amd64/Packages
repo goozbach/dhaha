@@ -1,0 +1,77 @@
+Package: asterisk22
+Version: 9:22.1.1-1
+Architecture: amd64
+Maintainer: ClearlyIP Packaging <packaging@clearlyip.com>
+Installed-Size: 25338
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libcrypt1 (>= 1:4.1.0), libcurl4 (>= 7.16.2), libedit2 (>= 2.11-20080614-0), libical3 (>= 3.0.0), libiksemel3 (>= 1.2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, liblua5.1-0, libneon27, libodbc2 (>= 2.3.1), libogg0 (>= 1.1.0), libportaudio2 (>= 19+svn20101113), libpq5, libpri1.4 (>= 1.4.15), libresample1 (>= 0.1.3), libspandsp2 (>= 0.0.6~pre18), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsqlite3-0 (>= 3.7.15), libsrtp2-1 (>= 2.0.0), libssl3 (>= 3.0.0~~alpha1), libsybdb5 (>= 0.63), libtonezone2.0 (>= 1:3.1.0), libunbound8 (>= 1.8.0), liburiparser1 (>= 0.6.0), libuuid1 (>= 2.16), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), adduser, libtcmalloc-minimal4, mpg123
+Homepage: https://www.asterisk.org/
+Priority: optional
+Section: comm
+Filename: pool/main/a/asterisk22/asterisk22_22.1.1-1_amd64.deb
+Size: 8014668
+SHA256: dac2b1fa4efb466d82db629857b878b35accc88db4f67fd8b5140491354068e5
+SHA1: b65c6ce22c80f706284e7ef71d16682352f2b2a6
+MD5sum: ef59860916804dcb5024c3158147ac23
+Description: Asterisk is a free and open source framework for building communications applications
+
+Package: asterisk22-dev
+Source: asterisk22
+Version: 9:22.1.1-1
+Architecture: all
+Maintainer: ClearlyIP Packaging <packaging@clearlyip.com>
+Installed-Size: 3039
+Recommends: asterisk
+Homepage: https://www.asterisk.org/
+Priority: optional
+Section: comm
+Filename: pool/main/a/asterisk22/asterisk22-dev_22.1.1-1_all.deb
+Size: 504440
+SHA256: 67d903b9c5a3ac974362ab2032c9cbd358a2a1e3b3b7995ca41a3cdb2474214b
+SHA1: 54a340e96d25161ccf1da4bbb8662e4a50a6410e
+MD5sum: 5fe05ac6c12c6a049f5422ee1c48e9d6
+Description: Development files for Asterisk
+ Asterisk is an Open Source PBX and telephony toolkit.
+ .
+ This package contains the include files used if you wish to compile a
+ package which requires Asterisk's source file headers.
+
+Package: asterisk22-doc
+Source: asterisk22
+Version: 9:22.1.1-1
+Architecture: all
+Maintainer: ClearlyIP Packaging <packaging@clearlyip.com>
+Installed-Size: 1001
+Recommends: asterisk
+Homepage: https://www.asterisk.org/
+Priority: optional
+Section: comm
+Filename: pool/main/a/asterisk22/asterisk22-doc_22.1.1-1_all.deb
+Size: 668912
+SHA256: c25362234932cde92595e7368df48bed99b6c45160f4ccca2ce2db6d34c9a5eb
+SHA1: d2ef6b2c4ed3f33c2e2d7a371ea09320ff01df71
+MD5sum: 2cdb263b86e6ca6f49ce70acf7dc6650
+Description: Source code documentation for Asterisk
+ Asterisk is an Open Source PBX and telephony toolkit.
+ .
+ This package contains the documentation for configuring an Asterisk system.
+
+Package: asterisk22-sounds-main
+Source: asterisk22
+Version: 9:22.1.1-1
+Architecture: all
+Maintainer: ClearlyIP Packaging <packaging@clearlyip.com>
+Installed-Size: 2818
+Enhances: asterisk
+Homepage: https://www.asterisk.org/
+Priority: optional
+Section: comm
+Filename: pool/main/a/asterisk22/asterisk22-sounds-main_22.1.1-1_all.deb
+Size: 2441698
+SHA256: f19adf4a85d9de441ed4381f11bbc18e1ce628f07682fc3cf7827cdee57fbfe1
+SHA1: f9850fbd6e2e89ee4859174e8fed13669876ecf8
+MD5sum: 784433c82d5e62051e31a049cb4ff7cd
+Description: Sound files for Asterisk
+ Asterisk is an Open Source PBX and telephony toolkit.
+ .
+ This package contains main sound files for Asterisk system.
+

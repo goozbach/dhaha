@@ -1,0 +1,5 @@
+Component: main
+Origin: apt.tangopbx.com
+Label: Asterisk
+Architecture: amd64
+Description: Asterisk repo for apt.tangopbx.com

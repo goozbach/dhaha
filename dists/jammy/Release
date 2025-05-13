@@ -1,0 +1,28 @@
+Origin: apt.tangopbx.com
+Label: Asterisk
+Codename: jammy
+Date: Tue, 13 May 2025 21:20:26 UTC
+Architectures: amd64
+Components: main
+Description: Asterisk repo for apt.tangopbx.com
+MD5Sum:
+ baa7daab8356d3feeb7f7c18f8b75870 3451 main/binary-amd64/Packages
+ ebb947b65abffed4426c8fd8b778bb85 1337 main/binary-amd64/Packages.gz
+ 7134dd3e460f89f30de626e56ac9e30b 125 main/binary-amd64/Release
+ ad422966628f1628d615c367bb6689f7 1684 main/source/Sources
+ 879b4f77bddad17a93ac603f9cac753f 828 main/source/Sources.gz
+ afc570bde94853850467503329d6e398 126 main/source/Release
+SHA1:
+ 10eac7193c80a16ee8d9244d35a9aef58c7e0cf4 3451 main/binary-amd64/Packages
+ 82f8ebe25efed68a0dee1957ecfbe3dd814dc1db 1337 main/binary-amd64/Packages.gz
+ 76faa3771466da5e9c4003e503dc4ed322976c02 125 main/binary-amd64/Release
+ 177b9a8265a6fcf63a9f94984fd85f21b0067f21 1684 main/source/Sources
+ edd75c1b75b1c2b213763f161958dc386a4dd04e 828 main/source/Sources.gz
+ 1845b701fa3bd928dc73fa53edb58712ca29d0d4 126 main/source/Release
+SHA256:
+ a87ca365cb37e729867880b12431e52b7108b1fa3ef297ef9d4193de2663a119 3451 main/binary-amd64/Packages
+ f4ce277cf66b8762c3394917cccd4cebf6d7984ba2a1a651b202ec3f5640c909 1337 main/binary-amd64/Packages.gz
+ ad906c9bccec380aca3a6d2b3825b7ff0b3c965fdb1f07f82751ed5d027250b3 125 main/binary-amd64/Release
+ 251dee9414ae6d1496f00e858adfaeee56ca261478526f4634b729fb2778e1ce 1684 main/source/Sources
+ 720adedc16881ae06216edb42a1da31cf8443842b1b0d922eb6c5f0ec9a35e2c 828 main/source/Sources.gz
+ 640f7a6d97d51a10cdd2db2f1e2c36dce6d7f9eba087bb12cd04d8e72bd69068 126 main/source/Release

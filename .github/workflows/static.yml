@@ -32,7 +32,7 @@ jobs:
       - name: install reprepo
         run: |
           sudo apt update
-          sudo apt -y install reprepo
+          sudo apt -y install reprepro
 
       - name: Checkout
         uses: actions/checkout@v4

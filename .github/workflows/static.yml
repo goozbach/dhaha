@@ -31,8 +31,8 @@ jobs:
     steps:
       - name: install reprepo
         run: |
-          apt update
-          apt -y install reprepo
+          sudo apt update
+          sudo apt -y install reprepo
 
       - name: Checkout
         uses: actions/checkout@v4

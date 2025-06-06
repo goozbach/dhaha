@@ -29,6 +29,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: install reprepo
+        run: |
+          apt update
+          apt -y install reprepo
+
       - name: Checkout
         uses: actions/checkout@v4
 

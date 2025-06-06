@@ -31,13 +31,41 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Restore the cache before generating the site
+      - name: Restore repository cache
+        uses: actions/cache@v4
+        with:
+          path: repository
+          key: repository-cache-${{ github.ref }}-${{ github.run_id }}
+          restore-keys: |
+            repository-cache-${{ github.ref }}-
+            repository-cache-
+
+      - name: update repository
+        run: |
+          echo "before"
+          tree -a repository
+          reprepro -V --basedir repository/ includedeb jammy asterisk22_22.1.1-1_amd64.deb
+          echo "after"
+          tree -a repository
+
+      # Save the cache after generating the site
+      - name: Save repository cache
+        uses: actions/cache/save@v4
+        with:
+          path: repository
+          key: repository-cache-${{ github.ref }}-${{ github.run_id }}
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          path: 'repository'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

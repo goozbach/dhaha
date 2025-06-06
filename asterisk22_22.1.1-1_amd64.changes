@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sun, 02 Feb 2025 03:31:15 +0000
+Source: asterisk22
+Binary: asterisk22 asterisk22-dev asterisk22-doc asterisk22-sounds-main
+Built-For-Profiles: noudeb
+Architecture: source amd64 all
+Version: 9:22.1.1-1
+Distribution: stable
+Urgency: medium
+Maintainer: ClearlyIP Packaging <packaging@clearlyip.com>
+Changed-By: ClearlyIP Packaging <packaging@clearlyip.com>
+Description:
+ asterisk22 - Asterisk is a free and open source framework for building communi
+ asterisk22-dev - Development files for Asterisk
+ asterisk22-doc - Source code documentation for Asterisk
+ asterisk22-sounds-main - Sound files for Asterisk
+Changes:
+ asterisk22 (9:22.1.1-1) stable; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ 7ba5406fce0ca8ec984cf73d5f4804d1dc9f87bf 1383 asterisk22_22.1.1-1.dsc
+ 4d3f69178233dc4e71752a04432d25dfe0c672cf 5942636 asterisk22_22.1.1-1.tar.xz
+ 37d2ffea4aacd00f241da258b1fee9bb88372763 16417198 asterisk22-dbgsym_22.1.1-1_amd64.ddeb
+ 650ef67b5628370b2e9d72a96f7a2cb711f297d4 504384 asterisk22-dev_22.1.1-1_all.deb
+ d2ef6b2c4ed3f33c2e2d7a371ea09320ff01df71 668912 asterisk22-doc_22.1.1-1_all.deb
+ f9850fbd6e2e89ee4859174e8fed13669876ecf8 2441698 asterisk22-sounds-main_22.1.1-1_all.deb
+ 9a2cbe4be80625f8c2a19d0c444990cf17948987 14514 asterisk22_22.1.1-1_amd64.buildinfo
+ ddbb23d2c7b2877c12c19bdad0dc32ee38aa711e 8014596 asterisk22_22.1.1-1_amd64.deb
+Checksums-Sha256:
+ 7b6359c6a07d716f8ecdb21621cf845956fe7c87e09b8b7e6897a7148932e32c 1383 asterisk22_22.1.1-1.dsc
+ baf302f5b14c04d4c384438115bca1aa5e3b48f772d8d9d60e129a111307d20d 5942636 asterisk22_22.1.1-1.tar.xz
+ 6d0ba957d3adc9a11ab070d960cf51a20b8b29ce6ef166943a19ab48f23712c3 16417198 asterisk22-dbgsym_22.1.1-1_amd64.ddeb
+ 0dbebe4dfe9931f2c0862c8b6381be677b9fa69ebd332a699c1608802d639ffa 504384 asterisk22-dev_22.1.1-1_all.deb
+ c25362234932cde92595e7368df48bed99b6c45160f4ccca2ce2db6d34c9a5eb 668912 asterisk22-doc_22.1.1-1_all.deb
+ f19adf4a85d9de441ed4381f11bbc18e1ce628f07682fc3cf7827cdee57fbfe1 2441698 asterisk22-sounds-main_22.1.1-1_all.deb
+ b5d49a2c1bd5fba8557e4c9eb1a44ce204fc35ab31afd52d5ed9dae172b0a435 14514 asterisk22_22.1.1-1_amd64.buildinfo
+ 2316b0dc078c727ec4aaf955f161f4b022f49fdb208abd295c988fea521e4a24 8014596 asterisk22_22.1.1-1_amd64.deb
+Files:
+ 1135b8f40956588a166c65a318500c91 1383 comm optional asterisk22_22.1.1-1.dsc
+ 55d8b192d62a8c5ffd44da44101df02a 5942636 comm optional asterisk22_22.1.1-1.tar.xz
+ f61299b9f97070a90c9f1284a39aace4 16417198 debug optional asterisk22-dbgsym_22.1.1-1_amd64.ddeb
+ aecc6a6ba80b500c4a472abe5e3c9e4a 504384 devel optional asterisk22-dev_22.1.1-1_all.deb
+ 2cdb263b86e6ca6f49ce70acf7dc6650 668912 doc optional asterisk22-doc_22.1.1-1_all.deb
+ 784433c82d5e62051e31a049cb4ff7cd 2441698 comm optional asterisk22-sounds-main_22.1.1-1_all.deb
+ 9cfcbb81909130beffc3d227490cf40d 14514 comm optional asterisk22_22.1.1-1_amd64.buildinfo
+ 324996acfe26f4f881a02ca03104b008 8014596 comm optional asterisk22_22.1.1-1_amd64.deb

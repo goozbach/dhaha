@@ -49,11 +49,13 @@ jobs:
 
       - name: update repository
         run: |
+          set -x -v
           echo "before"
           tree -a repository
-          reprepro -V --basedir repository/ includedeb jammy asterisk22_22.1.1-1_amd64.deb
+          reprepro -V --basedir repository includedeb jammy asterisk22_22.1.1-1_amd64.deb
           echo "after"
           tree -a repository
+          set +x +v
 
       # Save the cache after generating the site
       - name: Save repository cache
